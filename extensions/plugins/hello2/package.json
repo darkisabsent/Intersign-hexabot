@@ -1,0 +1,6 @@
+{
+    "name": "hexabot-plugin-time",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "description": "Hexabot plugin to get the current time."
+}

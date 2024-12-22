@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  flask-video-app:
+    build:
+      context: ../genvid
+    container_name: flask_video_app
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_RUN_HOST=0.0.0.0
+    networks:
+      - app-network
+
+networks:
+  app-network:
